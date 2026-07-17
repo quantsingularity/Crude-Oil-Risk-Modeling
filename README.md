@@ -55,7 +55,7 @@ pip install numpy pandas matplotlib seaborn yfinance scipy statsmodels pgmpy net
 
 1. Clone this repository.
 2. Install the required packages listed above.
-3. Open GWP_1_Risk_Management.ipynb in Jupyter or a compatible environment.
+3. Open Oil Market Risk Analysis.ipynb in Jupyter or a compatible environment.
 4. Run all cells from top to bottom. If a live data request fails, the notebook falls back to a local cache stored under a data folder; without a live connection or a cache, the affected cell will raise an error.
 
 ## Notes
