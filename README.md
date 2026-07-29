@@ -1,10 +1,6 @@
 # Crude Oil Risk Modeling
 
-A single notebook covering crude oil price risk from data assembly through to a simple trading simulation. It builds a monthly and daily oil market dataset from financial, macroeconomic, and physical market variables, cleans and statistically characterizes it, detects bull, bear, and stagnant regimes with hidden Markov models built from scratch, learns a belief network structure linking those regimes to WTI price movements, then stress tests and evaluates that network with a multi seed robustness check, a replication comparison against a reference dissertation, confusion matrices, and a long, short, and hold trading simulation.
-
-## Project Overview
-
-The notebook runs as one continuous pipeline, so nothing is fetched or fit twice. It starts by assembling the dataset and understanding its statistical properties, moves into regime detection and belief network structure learning built directly on that same dataset, then evaluates and stress tests that network with a multi seed robustness check, a comparison against an external reference result, and a simple downstream trading simulation built on the predicted regimes.
+A single notebook that assembles and cleans an oil market dataset, detects bull, bear, and stagnant regimes with hidden Markov models built from scratch, learns a belief network linking those regimes to WTI price movements, then evaluates it with a robustness check, a replication comparison, and a simple trading simulation.
 
 ## Data Sources
 
