@@ -88,4 +88,4 @@ pip install numpy pandas matplotlib seaborn yfinance scipy statsmodels pgmpy net
 
 ## License
 
-Add a license of your choice for this repository.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
